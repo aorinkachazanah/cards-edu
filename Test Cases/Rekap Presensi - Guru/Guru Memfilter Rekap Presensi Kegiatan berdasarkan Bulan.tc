@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Guru Memfilter Rekap Presensi Kegiatan berdasarkan Bulan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1f84aff2-0422-4bc2-8fa0-35c0b79a8189</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Murid Membuka Rekap Presensi Kegiatan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>651badcd-a6fb-41f0-b0bc-91062ee94370</testCaseGuid>
+</TestCaseEntity>

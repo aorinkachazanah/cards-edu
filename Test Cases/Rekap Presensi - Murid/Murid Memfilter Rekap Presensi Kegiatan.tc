@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Murid Memfilter Rekap Presensi Kegiatan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>98193af9-6a16-47d0-b7e3-196df063cd25</testCaseGuid>
+</TestCaseEntity>

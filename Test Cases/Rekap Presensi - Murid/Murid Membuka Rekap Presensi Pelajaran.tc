@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Murid Membuka Rekap Presensi Pelajaran</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>749618d4-58cc-4dc0-adee-ef726f61bf12</testCaseGuid>
+</TestCaseEntity>

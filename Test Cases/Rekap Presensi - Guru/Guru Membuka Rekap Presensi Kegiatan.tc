@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Guru Membuka Rekap Presensi Kegiatan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c4b30fc2-9b48-40f4-a2da-c114083a9f4b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Murid Memfilter Rekap Presensi Kehadiran</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d86c147b-8ee6-40d4-8d66-14cd25afd411</testCaseGuid>
+</TestCaseEntity>

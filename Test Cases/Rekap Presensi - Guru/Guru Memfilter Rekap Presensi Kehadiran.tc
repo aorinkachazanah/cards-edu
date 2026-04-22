@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Guru Memfilter Rekap Presensi Kehadiran</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6432cf99-b546-4cc0-abd8-f78a165bb769</testCaseGuid>
+</TestCaseEntity>

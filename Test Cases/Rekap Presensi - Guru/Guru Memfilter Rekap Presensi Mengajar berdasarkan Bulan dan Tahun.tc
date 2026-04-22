@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Guru Memfilter Rekap Presensi Mengajar berdasarkan Bulan dan Tahun</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>79c92c3d-7bcb-49c0-bfa4-67156c062eb2</testCaseGuid>
+</TestCaseEntity>

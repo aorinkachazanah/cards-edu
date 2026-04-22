@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Guru Melihat Detail Rekap Presensi Mengajar</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>52da50bc-e765-40f5-8adf-fcebc5614c47</testCaseGuid>
+</TestCaseEntity>

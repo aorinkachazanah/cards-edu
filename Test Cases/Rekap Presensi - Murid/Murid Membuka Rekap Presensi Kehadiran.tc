@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Murid Membuka Rekap Presensi Kehadiran</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>168a9c97-bf63-4dbe-bc0d-b4b788784128</testCaseGuid>
+</TestCaseEntity>

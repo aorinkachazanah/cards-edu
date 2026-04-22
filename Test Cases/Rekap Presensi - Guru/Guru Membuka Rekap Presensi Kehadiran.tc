@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Guru Membuka Rekap Presensi Kehadiran</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>df56a025-0e19-4606-9ee9-3da8e29a94bd</testCaseGuid>
+</TestCaseEntity>

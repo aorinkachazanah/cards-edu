@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Murid Melihat Detail Presensi Kegiatan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>60cb803b-f7b3-4158-9db9-0c97c9239c43</testCaseGuid>
+</TestCaseEntity>
