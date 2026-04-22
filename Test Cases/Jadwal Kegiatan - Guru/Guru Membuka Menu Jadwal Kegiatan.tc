@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Guru Membuka Menu Jadwal Kegiatan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f8f1af89-e70f-4618-9f90-5dae4d0e72c1</testCaseGuid>
+</TestCaseEntity>
