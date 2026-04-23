@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Guru Mencari Pengumuman Berdasarkan Judul</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>27c9dc7d-a59a-42f5-a9ff-c7ce0e1ab7f6</testCaseGuid>
+</TestCaseEntity>
