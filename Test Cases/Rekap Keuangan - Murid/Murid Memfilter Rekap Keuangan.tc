@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Murid Memfilter Rekap Keuangan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2ad6be82-6ed2-402e-8648-000ae1eb6780</testCaseGuid>
+</TestCaseEntity>

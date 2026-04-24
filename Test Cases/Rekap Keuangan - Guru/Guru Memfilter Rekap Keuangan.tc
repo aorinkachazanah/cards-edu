@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Guru Memfilter Rekap Keuangan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e5fa6db9-19de-4a85-aaf1-367903882c22</testCaseGuid>
+</TestCaseEntity>

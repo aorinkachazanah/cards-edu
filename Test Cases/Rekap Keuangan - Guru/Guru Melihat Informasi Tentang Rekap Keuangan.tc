@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Guru Melihat Informasi Tentang Rekap Keuangan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3b243b5a-cc47-4a1a-86db-a2c7d28eca87</testCaseGuid>
+</TestCaseEntity>

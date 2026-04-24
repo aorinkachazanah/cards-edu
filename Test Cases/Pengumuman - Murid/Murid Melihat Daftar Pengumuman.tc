@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Murid Melihat Daftar Pengumuman</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f51000a5-2905-4a33-bae3-5727aab1d1ef</testCaseGuid>
+</TestCaseEntity>

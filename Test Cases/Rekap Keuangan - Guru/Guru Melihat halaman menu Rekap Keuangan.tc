@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Guru Melihat halaman menu Rekap Keuangan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fe5203f5-8503-4ebb-ae5d-7108eb5f0d3d</testCaseGuid>
+</TestCaseEntity>

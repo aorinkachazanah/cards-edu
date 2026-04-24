@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Murid Melihat Detail Transaksi Uang Keluar</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>76f043c3-55af-4cb2-bc9d-51041eb668a7</testCaseGuid>
+</TestCaseEntity>

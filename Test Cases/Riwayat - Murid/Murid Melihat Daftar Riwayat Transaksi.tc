@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Murid Melihat Daftar Riwayat Transaksi</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>31c235e1-34da-446f-82f7-06805b8713ca</testCaseGuid>
+</TestCaseEntity>

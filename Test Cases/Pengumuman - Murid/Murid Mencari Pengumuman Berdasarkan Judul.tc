@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Murid Mencari Pengumuman Berdasarkan Judul</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e8aec054-7edf-456c-8d3e-8b54037aac3c</testCaseGuid>
+</TestCaseEntity>

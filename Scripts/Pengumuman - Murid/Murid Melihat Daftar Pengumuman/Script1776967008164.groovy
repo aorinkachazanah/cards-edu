@@ -23,28 +23,12 @@ import com.kms.katalon.core.model.FailureHandling as FailureHandling
 
 Mobile.startExistingApplication('id.cazh.cards.edu')
 
-TestObject menu = findTestObject('Pengumuman - Guru/lihat_semua_pengumuman_guru')
+TestObject menu = findTestObject('Pengumuman - Murid/lihat_semua_pengumuman_murid')
 
-boolean found = false
-
-for (int i = 0; i < 10; i++) {
-
-	if (Mobile.waitForElementPresent(menu, 3, FailureHandling.OPTIONAL)) {
-
-		Mobile.delay(1) 
-
-		Mobile.tap(menu, 10, FailureHandling.STOP_ON_FAILURE)
-
-		found = true
-		break
-	}
-
-	Mobile.swipe(500, 1500, 500, 500)
-	Mobile.delay(1)
+while (Mobile.getElementTopPosition(menu, 10) > 1500) {
+	Mobile.swipe(500, 1200, 500, 600)
+	Mobile.delay(1)  // tunggu animasi scroll selesai
 }
 
-if (!found) {
-	Mobile.comment('Element tidak ditemukan setelah swipe')
-}
-
+Mobile.tap(menu, 10)
 Mobile.closeApplication()

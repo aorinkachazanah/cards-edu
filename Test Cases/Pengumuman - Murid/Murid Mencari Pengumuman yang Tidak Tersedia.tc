@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Murid Mencari Pengumuman yang Tidak Tersedia</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>44212b76-0d2f-4195-8e65-a5b97dd6bba4</testCaseGuid>
+</TestCaseEntity>

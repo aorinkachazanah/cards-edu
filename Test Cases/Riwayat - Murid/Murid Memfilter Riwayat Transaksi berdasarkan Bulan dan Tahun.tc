@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Murid Memfilter Riwayat Transaksi berdasarkan Bulan dan Tahun</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ae3d41e8-87e4-46a6-bcc3-f756baf6edca</testCaseGuid>
+</TestCaseEntity>

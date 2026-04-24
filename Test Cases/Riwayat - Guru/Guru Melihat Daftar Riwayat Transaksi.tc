@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Guru Melihat Daftar Riwayat Transaksi</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>65d775f8-793a-4da5-b42f-14c966ab2a64</testCaseGuid>
+</TestCaseEntity>

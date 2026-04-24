@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Guru Melihat Detail Transaksi Uang Masuk</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c64f64ed-a2c0-41af-a73b-4e245d81435a</testCaseGuid>
+</TestCaseEntity>

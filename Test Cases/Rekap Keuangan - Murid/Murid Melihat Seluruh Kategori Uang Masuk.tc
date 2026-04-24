@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Murid Melihat Seluruh Kategori Uang Masuk</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>101171d0-c339-4b8c-a62b-926cf46e50d1</testCaseGuid>
+</TestCaseEntity>

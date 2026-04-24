@@ -17,34 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
-
 Mobile.startExistingApplication('id.cazh.cards.edu')
 
-TestObject menu = findTestObject('Pengumuman - Guru/lihat_semua_pengumuman_guru')
+Mobile.waitForElementPresent(findTestObject('Rekap Keuangan - Guru/rekap_keuangan_guru'), 20)
+Mobile.tap(findTestObject('Rekap Keuangan - Guru/rekap_keuangan_guru'), 0)
 
-boolean found = false
+Mobile.waitForElementPresent(findTestObject('Rekap Keuangan - Guru/tab_uang_keluar_guru'), 20)
+Mobile.tap(findTestObject('Rekap Keuangan - Guru/tab_uang_keluar_guru'), 0)
 
-for (int i = 0; i < 10; i++) {
+Mobile.waitForElementPresent(findTestObject('Rekap Keuangan - Guru/list_transaksi_keluar_guru'), 20)
+Mobile.tap(findTestObject('Rekap Keuangan - Guru/list_transaksi_keluar_guru'), 30)
 
-	if (Mobile.waitForElementPresent(menu, 3, FailureHandling.OPTIONAL)) {
+Mobile.waitForElementPresent(findTestObject('Rekap Keuangan - Guru/detail_transaksi_keluar_guru'), 20)
+Mobile.tap(findTestObject('Rekap Keuangan - Guru/detail_transaksi_keluar_guru'), 0)
 
-		Mobile.delay(1) 
+Mobile.pressBack()
+Mobile.pressBack()
 
-		Mobile.tap(menu, 10, FailureHandling.STOP_ON_FAILURE)
-
-		found = true
-		break
-	}
-
-	Mobile.swipe(500, 1500, 500, 500)
-	Mobile.delay(1)
-}
-
-if (!found) {
-	Mobile.comment('Element tidak ditemukan setelah swipe')
-}
-
-Mobile.closeApplication()

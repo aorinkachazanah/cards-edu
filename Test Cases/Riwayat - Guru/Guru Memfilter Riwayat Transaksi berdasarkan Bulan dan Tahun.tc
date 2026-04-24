@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Guru Memfilter Riwayat Transaksi berdasarkan Bulan dan Tahun</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ca9c8a1b-b9c7-4e07-a532-2729cd65462f</testCaseGuid>
+</TestCaseEntity>

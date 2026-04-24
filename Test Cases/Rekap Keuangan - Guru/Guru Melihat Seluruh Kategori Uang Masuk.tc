@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Guru Melihat Seluruh Kategori Uang Masuk</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7b373675-4ead-4f2a-ba36-33680c796f06</testCaseGuid>
+</TestCaseEntity>
