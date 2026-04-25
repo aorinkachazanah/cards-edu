@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Murid Melihat Tab Tugas Murid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7fc7d3d6-6ef2-43ee-b3c1-a43fe1c081c2</testCaseGuid>
+</TestCaseEntity>

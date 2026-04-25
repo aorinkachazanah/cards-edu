@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TC_Notifikasi</name>
+   <name>Tugas - Guru</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,19 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>ecf242be-fccf-41aa-a640-5c787c98f631</testSuiteGuid>
+   <testSuiteGuid>03b49e84-c485-4ceb-b834-dc89fe0e69bf</testSuiteGuid>
    <testCaseLink>
-      <guid>b4468a37-d99f-49ab-ae1d-c3b06d6b7f2e</guid>
+      <guid>8451dea6-a7b9-49ce-9f31-73683deb58ea</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_Notifikasi</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2d9de4a0-0189-4862-8429-b7ed1aeb9767</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_Notifikasi</testCaseId>
+      <testCaseId>Test Cases/Tugas - Guru/Guru Menghapus Tugas</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Guru Membuat Tugas tanpa Mengisi Data Wajib</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dd96e204-db6b-4c95-b5e3-9f6f4c414fba</testCaseGuid>
+</TestCaseEntity>

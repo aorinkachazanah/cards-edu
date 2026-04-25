@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Murid Melihat Tugas Berdasarkan Mata Pelajaran</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>35f75376-5851-4031-81fc-77ce62d9477f</testCaseGuid>
+</TestCaseEntity>

@@ -17,11 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('id.cazh.cards.edu',)
+Mobile.startExistingApplication('id.cazh.cards.edu')
 
-Mobile.tap(findTestObject('Object Repository/Notifikasi/IconNotifkasi'), 0)
+Mobile.waitForElementPresent(findTestObject('Tugas - Murid/button_akademik_murid'), 20)
+Mobile.tap(findTestObject('Tugas - Murid/button_akademik_murid'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Notifikasi/android.view.ViewGroup'), 0)
+Mobile.waitForElementPresent(findTestObject('Tugas - Murid/button_tugas_murid'), 20)
+Mobile.tap(findTestObject('Tugas - Murid/button_tugas_murid'), 0)
 
-Mobile.closeApplication()
+Mobile.waitForElementPresent(findTestObject('Tugas - Murid/filter_mata_pelajaran'), 20)
+Mobile.tap(findTestObject('Tugas - Murid/filter_mata_pelajaran'), 0)
 
+Mobile.pressBack()

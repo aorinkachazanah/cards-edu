@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_Notifikasi</name>
+   <name>Murid Melihat Nilai Tugas</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>a2f05bc7-6d50-4908-8c8f-24e573092fbe</testCaseGuid>
+   <testCaseGuid>534bb64b-fb66-41f4-bed0-1cd1bc8f8b8c</testCaseGuid>
 </TestCaseEntity>
