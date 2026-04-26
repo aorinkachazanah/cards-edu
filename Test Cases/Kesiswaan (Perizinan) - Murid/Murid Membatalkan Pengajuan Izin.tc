@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Murid Membatalkan Pengajuan Izin</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3570c495-5f3f-49b7-8428-a7099dbd6ab7</testCaseGuid>
+</TestCaseEntity>
