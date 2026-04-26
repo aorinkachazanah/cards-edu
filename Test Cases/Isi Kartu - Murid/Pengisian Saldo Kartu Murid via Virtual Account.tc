@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pengisian Saldo Kartu Murid via Virtual Account</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3dcf5446-b476-46b4-911e-7d043aee2d5c</testCaseGuid>
+</TestCaseEntity>

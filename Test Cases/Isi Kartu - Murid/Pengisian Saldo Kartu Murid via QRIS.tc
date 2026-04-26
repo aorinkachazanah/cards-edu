@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pengisian Saldo Kartu Murid via QRIS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>32f414f9-4b5e-4116-97ac-40db680fd806</testCaseGuid>
+</TestCaseEntity>

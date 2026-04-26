@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pengisian Saldo Kartu Murid kurang dari 15.000, maka menampilkan pesan eror</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>603570fa-7ec9-4ec1-8593-57bb18285cd1</testCaseGuid>
+</TestCaseEntity>

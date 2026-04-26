@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pengisian Saldo Kartu Guru via Virtual Account</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>33008159-5220-4945-b87e-b439aad48124</testCaseGuid>
+</TestCaseEntity>

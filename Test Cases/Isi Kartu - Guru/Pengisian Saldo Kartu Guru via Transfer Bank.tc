@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pengisian Saldo Kartu Guru via Transfer Bank</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>93e249d0-a68e-4e44-8872-3e843c9cd5f0</testCaseGuid>
+</TestCaseEntity>

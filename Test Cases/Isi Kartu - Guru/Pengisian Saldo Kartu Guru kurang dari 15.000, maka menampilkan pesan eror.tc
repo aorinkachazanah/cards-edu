@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pengisian Saldo Kartu Guru kurang dari 15.000, maka menampilkan pesan eror</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8723c7a6-207e-48c3-aec8-020d845cb13f</testCaseGuid>
+</TestCaseEntity>

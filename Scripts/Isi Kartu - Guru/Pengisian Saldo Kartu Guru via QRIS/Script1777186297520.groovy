@@ -1,0 +1,65 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
+import org.openqa.selenium.OutputType
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
+import org.openqa.selenium.OutputType
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
+import org.openqa.selenium.OutputType
+
+Mobile.startExistingApplication('id.cazh.cards.edu')
+
+Mobile.waitForElementPresent(findTestObject('Isi Kartu - Guru/button_isi_kartu_guru'), 20)
+Mobile.tap(findTestObject('Isi Kartu - Guru/button_isi_kartu_guru'), 0)
+
+Mobile.setText(findTestObject('Isi Kartu - Guru/masukkan_nominal'), '15.000', 10)
+Mobile.hideKeyboard()
+
+Mobile.waitForElementPresent(findTestObject('Isi Kartu - Guru/pilih_metode_pembayaran'), 20)
+Mobile.tap(findTestObject('Isi Kartu - Guru/pilih_metode_pembayaran'), 0)
+
+Mobile.delay(2)
+
+// Swipe mentok bawah
+Mobile.swipe(500, 2000, 500, 100)
+Mobile.delay(3)
+Mobile.swipe(500, 2000, 500, 100)
+Mobile.delay(3)
+
+// Tap langsung koordinat radio button QRIS
+Mobile.tapAtPosition(80, 1050)
+Mobile.delay(2)
+
+Mobile.tap(findTestObject('Isi Kartu - Guru/button_proses'), 0)
+Mobile.delay(3)
+
+// Verifikasi sukses - cek apakah muncul halaman sukses atau pesan berhasil
+boolean berhasil = Mobile.waitForElementPresent(
+    findTestObject('Isi Kartu - Guru/pesan_berhasil'), 5, FailureHandling.OPTIONAL)
+
+if (berhasil) {
+    Mobile.comment('PASSED - Transaksi isi kartu berhasil')
+} else {
+    Mobile.comment('FAILED - Transaksi gagal, app crash atau tidak ada konfirmasi')
+    // Paksa test case gagal
+    assert false, 'Transaksi isi kartu gagal - app crash'
+}
+
+Mobile.pressBack()
+Mobile.pressBack()
