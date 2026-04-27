@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Guru Menambahkan Perizinan Baru untuk Murid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>be08bded-9758-4381-b636-a4026cd86d57</testCaseGuid>
+</TestCaseEntity>

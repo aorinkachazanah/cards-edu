@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Guru Reset PIN melalui WhatsApp</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>099f4e9f-482b-4e15-bc04-fb840f83ede0</testCaseGuid>
+</TestCaseEntity>

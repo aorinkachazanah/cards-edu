@@ -19,25 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('id.cazh.cards.edu')
 
-Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/button_kesiswaan'), 20)
-Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/button_kesiswaan'), 0)
+Mobile.waitForElementPresent(findTestObject('Reset PIN - Guru/icon_profil_guru'), 20)
+Mobile.tap(findTestObject('Reset PIN - Guru/icon_profil_guru'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/button_perizinan'), 20)
-Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/button_perizinan'), 0)
+Mobile.waitForElementPresent(findTestObject('Reset PIN - Guru/reset_pin_guru'), 20)
+Mobile.tap(findTestObject('Reset PIN - Guru/reset_pin_guru'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/button_tambah_perizinan'), 20)
-Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/button_tambah_perizinan'), 0)
+Mobile.waitForElementPresent(findTestObject('Reset PIN - Guru/icon_whatsapp_guru'), 20)
+Mobile.tap(findTestObject('Reset PIN - Guru/icon_whatsapp_guru'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/button_ajukan'), 20)
-Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/button_ajukan'), 0)
+Mobile.waitForElementPresent(findTestObject('Reset PIN - Guru/konfirmasi_ya'), 20)
+Mobile.tap(findTestObject('Reset PIN - Guru/konfirmasi_ya'), 0)
 
-Mobile.delay(2)
+Mobile.pressBack()
+Mobile.pressBack()
 
-// Verifikasi pesan validasi muncul
-Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/pesan_nama_izin_wajib'), 5)
-Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/pesan_tipe_izin_wajib'), 5)
-Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/pesan_durasi_izin_wajib'), 5)
-Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/pesan_foto_wajib'), 5)
-
-Mobile.comment('PASSED - Semua pesan validasi muncul')
 

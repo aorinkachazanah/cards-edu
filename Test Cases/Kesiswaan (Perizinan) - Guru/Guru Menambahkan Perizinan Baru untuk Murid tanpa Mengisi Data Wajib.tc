@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Guru Menambahkan Perizinan Baru untuk Murid tanpa Mengisi Data Wajib</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0c345861-21ff-42cc-b1dd-9b1c573c8810</testCaseGuid>
+</TestCaseEntity>

@@ -28,17 +28,28 @@ Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/button_perizinan'), 0)
 Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/filter_perizinan'), 20)
 Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/filter_perizinan'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/pilih_izin_guru_yang_dibatalkan'), 20)
-Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/pilih_izin_guru_yang_dibatalkan'), 0)
+Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/pilih_izin_murid_yang_diubah'), 20)
+Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/pilih_izin_murid_yang_diubah'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/button_batalkan_izin'), 20)
-Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/button_batalkan_izin'), 0)
+Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/button_ubah_jadwal_izin'), 20)
+Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/button_ubah_jadwal_izin'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/konfirmasi_batalkan_izin'), 20)
-Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/konfirmasi_batalkan_izin'), 0)
+Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/klik_ubah'), 20)
+Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/klik_ubah'), 0)
 
-Mobile.setText(findTestObject('Kesiswaan (Perizinan) - Guru/masukkan_alasan_pembatalan'), 'Terjadi kesalahan saat mengajukan izin' , 10)
-Mobile.hideKeyboard()
+Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/klik_icon_tanggal_selesai'), 20)
+Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/klik_icon_tanggal_selesai'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/button_kirim_pembatalan'), 20)
-Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/button_kirim_pembatalan'), 0)
+Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/swipe_bulan_ubah_tanggal (1)'), 20)
+Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/swipe_bulan_ubah_tanggal (1)'), 0)
+Mobile.delay(2)
+
+// Scroll ke atas sedikit
+Mobile.swipe(540, 1200, 540, 400)
+Mobile.delay(3)
+
+Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/pilih_tanggal_selesai_baru (1)'), 20)
+Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/pilih_tanggal_selesai_baru (1)'), 0)
+
+Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/button_simpan_perubahan_tanggal'), 20)
+Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/button_simpan_perubahan_tanggal'), 0)

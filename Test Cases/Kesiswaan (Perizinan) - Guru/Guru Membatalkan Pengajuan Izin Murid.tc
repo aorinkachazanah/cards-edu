@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Guru Membatalkan Pengajuan Izin Murid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ae587a39-0840-4320-98aa-8448ee04890e</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Murid Membatalkan Proses Reset PIN</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>025afeba-b212-4175-b5d8-9c6a5460281d</testCaseGuid>
+</TestCaseEntity>

@@ -28,8 +28,8 @@ Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/button_perizinan'), 0)
 Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/filter_perizinan'), 20)
 Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/filter_perizinan'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/pilih_izin_guru_yang_dibatalkan'), 20)
-Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/pilih_izin_guru_yang_dibatalkan'), 0)
+Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/pilih_izin_murid_yang_diubah'), 20)
+Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/pilih_izin_murid_yang_diubah'), 0)
 
 Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/button_batalkan_izin'), 20)
 Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/button_batalkan_izin'), 0)

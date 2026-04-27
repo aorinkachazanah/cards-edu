@@ -19,25 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('id.cazh.cards.edu')
 
-Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/button_kesiswaan'), 20)
-Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/button_kesiswaan'), 0)
+Mobile.waitForElementPresent(findTestObject('Reset PIN - Murid/icon_profil_murid'), 20)
+Mobile.tap(findTestObject('Reset PIN - Murid/icon_profil_murid'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/button_perizinan'), 20)
-Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/button_perizinan'), 0)
+Mobile.waitForElementPresent(findTestObject('Reset PIN - Murid/reset_pin_murid'), 20)
+Mobile.tap(findTestObject('Reset PIN - Murid/reset_pin_murid'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/button_tambah_perizinan'), 20)
-Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/button_tambah_perizinan'), 0)
+Mobile.waitForElementPresent(findTestObject('Reset PIN - Murid/icon_email_murid'), 20)
+Mobile.tap(findTestObject('Reset PIN - Murid/icon_email_murid'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/button_ajukan'), 20)
-Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/button_ajukan'), 0)
+Mobile.waitForElementPresent(findTestObject('Reset PIN - Murid/konfirmasi_ya'), 20)
+Mobile.tap(findTestObject('Reset PIN - Murid/konfirmasi_ya'), 0)
 
-Mobile.delay(2)
-
-// Verifikasi pesan validasi muncul
-Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/pesan_nama_izin_wajib'), 5)
-Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/pesan_tipe_izin_wajib'), 5)
-Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/pesan_durasi_izin_wajib'), 5)
-Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/pesan_foto_wajib'), 5)
-
-Mobile.comment('PASSED - Semua pesan validasi muncul')
-
+Mobile.pressBack()
+Mobile.pressBack()

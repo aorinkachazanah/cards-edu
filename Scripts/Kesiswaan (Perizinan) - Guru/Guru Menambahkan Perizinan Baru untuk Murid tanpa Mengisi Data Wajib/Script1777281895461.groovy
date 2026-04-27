@@ -25,20 +25,28 @@ Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/button_kesiswaan'), 0)
 Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/button_perizinan'), 20)
 Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/button_perizinan'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/filter_perizinan'), 20)
-Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/filter_perizinan'), 0)
+Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/button_tambah_perizinan'), 20)
+Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/button_tambah_perizinan'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/pilih_izin_guru_yang_dibatalkan'), 20)
-Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/pilih_izin_guru_yang_dibatalkan'), 0)
+Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/kolom_pengajuan_untuk'), 20)
+Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/kolom_pengajuan_untuk'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/button_batalkan_izin'), 20)
-Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/button_batalkan_izin'), 0)
+Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/pengajuan_untuk_murid'), 20)
+Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/pengajuan_untuk_murid'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/konfirmasi_batalkan_izin'), 20)
-Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/konfirmasi_batalkan_izin'), 0)
+Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/button_ajukan'), 20)
+Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/button_ajukan'), 0)
 
-Mobile.setText(findTestObject('Kesiswaan (Perizinan) - Guru/masukkan_alasan_pembatalan'), 'Terjadi kesalahan saat mengajukan izin' , 10)
-Mobile.hideKeyboard()
+Mobile.delay(2)
 
-Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/button_kirim_pembatalan'), 20)
-Mobile.tap(findTestObject('Kesiswaan (Perizinan) - Guru/button_kirim_pembatalan'), 0)
+// Verifikasi pesan validasi muncul
+Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/nama_murid_wajib_diisi'), 5)
+Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/pesan_nama_izin_wajib'), 5)
+Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/pesan_tipe_izin_wajib'), 5)
+Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/pesan_durasi_izin_wajib'), 5)
+Mobile.waitForElementPresent(findTestObject('Kesiswaan (Perizinan) - Guru/pesan_foto_wajib'), 5)
+
+Mobile.comment('PASSED - Semua pesan validasi muncul')
+
+Mobile.pressBack()
+Mobile.pressBack()

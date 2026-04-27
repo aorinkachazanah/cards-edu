@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Guru Membatalkan Proses Reset PIN</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b626bfa8-cc8d-44d2-933e-7265c1950878</testCaseGuid>
+</TestCaseEntity>
