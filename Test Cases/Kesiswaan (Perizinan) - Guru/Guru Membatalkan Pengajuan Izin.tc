@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Guru Membatalkan Pengajuan Izin</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>318fd701-b50f-49ed-86fe-c88bdf07a729</testCaseGuid>
+</TestCaseEntity>

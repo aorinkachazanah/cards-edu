@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Guru Mengubah Jadwal Izin</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ff3e0acf-12d3-471b-ac9d-2e9d062fef06</testCaseGuid>
+</TestCaseEntity>
