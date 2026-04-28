@@ -16,12 +16,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.By
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
 
-Mobile.startExistingApplication('id.cazh.cards.edu.staging') 
+Mobile.startExistingApplication('id.cazh.cards.edu')
 
-Mobile.tap(findTestObject('LoginDenganKartu/Field Nomor Kartu'), 3)
-Mobile.delay(5)
-WebUI.setText(findTestObject('LoginDenganKartu/Field Nomor Kartu'), '1000001919441790')
+def driver = MobileDriverFactory.getDriver()
 
-Mobile.tap(findTestObject('LoginDenganKartu/Button Masuk'), 5)
+Mobile.waitForElementPresent(findTestObject('Login dengan Google - Guru/button_login_google'), 20)
+Mobile.tap(findTestObject('Login dengan Google - Guru/button_login_google'), 0)
 
+Mobile.delay(6)
+
+driver.findElement(By.xpath('//*[@text="backupfotoaorin@gmail.com"]')).click()

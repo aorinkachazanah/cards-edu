@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Registrasi Akun Murid via SSO Google dengan Nomor Kartu kurang dari 16 Digit</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d9fe0036-db5c-4653-9413-aeb3a784d840</testCaseGuid>
+</TestCaseEntity>

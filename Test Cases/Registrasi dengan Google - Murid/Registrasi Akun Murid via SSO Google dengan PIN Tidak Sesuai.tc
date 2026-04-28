@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Registrasi Akun Murid via SSO Google dengan PIN Tidak Sesuai</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fb2abced-4051-4c87-8fe6-0e35b84bbfe1</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Murid dengan Nomor Kartu dengan PIN Salah</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>56e777ab-27b9-49c4-8126-c8b593528268</testCaseGuid>
+</TestCaseEntity>

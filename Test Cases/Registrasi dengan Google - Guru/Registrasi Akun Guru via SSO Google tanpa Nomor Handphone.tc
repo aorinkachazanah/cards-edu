@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Registrasi Akun Guru via SSO Google tanpa Nomor Handphone</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>39e9fa84-e94b-4c9a-baae-667182479e4e</testCaseGuid>
+</TestCaseEntity>

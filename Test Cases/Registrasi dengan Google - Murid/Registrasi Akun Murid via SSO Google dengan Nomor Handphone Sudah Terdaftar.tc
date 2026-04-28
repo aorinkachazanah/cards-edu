@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Registrasi Akun Murid via SSO Google dengan Nomor Handphone Sudah Terdaftar</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8a30a40c-be17-4f25-ae75-1a2069818ea6</testCaseGuid>
+</TestCaseEntity>

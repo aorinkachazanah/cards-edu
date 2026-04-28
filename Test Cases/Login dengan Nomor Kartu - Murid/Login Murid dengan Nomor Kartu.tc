@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Murid dengan Nomor Kartu</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4debb076-e98b-43b1-9af9-dd5abc8f50e0</testCaseGuid>
+</TestCaseEntity>

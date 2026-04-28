@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Registrasi Akun Murid via SSO Google PIN kurang dari 6 digit</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>39375802-c75b-4e8b-bead-e9b6adf9b68d</testCaseGuid>
+</TestCaseEntity>

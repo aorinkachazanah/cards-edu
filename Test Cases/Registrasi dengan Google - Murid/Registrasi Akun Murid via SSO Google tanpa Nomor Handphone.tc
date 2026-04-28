@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Registrasi Akun Murid via SSO Google tanpa Nomor Handphone</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f2f10da1-2ba2-4bfc-819d-a16f785cd0a0</testCaseGuid>
+</TestCaseEntity>

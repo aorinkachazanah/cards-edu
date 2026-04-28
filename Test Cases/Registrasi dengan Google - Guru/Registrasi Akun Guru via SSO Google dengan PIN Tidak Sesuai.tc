@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Registrasi Akun Guru via SSO Google dengan PIN Tidak Sesuai</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aff303b5-89b4-426d-9965-341396106361</testCaseGuid>
+</TestCaseEntity>

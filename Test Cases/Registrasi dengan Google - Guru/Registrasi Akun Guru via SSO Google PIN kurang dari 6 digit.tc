@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Registrasi Akun Guru via SSO Google PIN kurang dari 6 digit</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4dddee84-27e7-4acd-b45f-7a7f54e520ba</testCaseGuid>
+</TestCaseEntity>

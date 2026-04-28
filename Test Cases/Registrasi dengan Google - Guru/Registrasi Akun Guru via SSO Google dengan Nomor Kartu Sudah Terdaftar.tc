@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Registrasi Akun Guru via SSO Google dengan Nomor Kartu Sudah Terdaftar</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>12dde5a0-1e50-4cf8-ab6d-74a20c34044b</testCaseGuid>
+</TestCaseEntity>
