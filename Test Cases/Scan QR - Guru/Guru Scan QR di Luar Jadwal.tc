@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Guru Scan QR di Luar Jadwal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6404abb1-8694-45fb-9872-73afaebd78f1</testCaseGuid>
+</TestCaseEntity>

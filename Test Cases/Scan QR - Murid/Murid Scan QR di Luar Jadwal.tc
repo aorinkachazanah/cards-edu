@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Murid Scan QR di Luar Jadwal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5d6f7f7f-4c85-4568-ba96-96678ced8df4</testCaseGuid>
+</TestCaseEntity>

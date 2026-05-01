@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Murid Scan QR Presensi Mata Pelajaran</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8f9f6449-710e-4821-808d-c588f5caf61b</testCaseGuid>
+</TestCaseEntity>

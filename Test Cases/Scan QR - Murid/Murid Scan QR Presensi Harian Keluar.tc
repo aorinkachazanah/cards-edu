@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Murid Scan QR Presensi Harian Keluar</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>79a64bfd-c260-4f5c-80d4-2d3e4fdfec80</testCaseGuid>
+</TestCaseEntity>

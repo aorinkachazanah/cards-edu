@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Guru Scan QR Presensi Harian Keluar</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8b317135-a25b-4bc0-832d-cae875e09fc6</testCaseGuid>
+</TestCaseEntity>

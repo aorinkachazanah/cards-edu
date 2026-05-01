@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Murid Melakukan Scan QR Kedua Kali</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5a37d665-9a9a-4c73-ab52-66c99e7bc55d</testCaseGuid>
+</TestCaseEntity>
